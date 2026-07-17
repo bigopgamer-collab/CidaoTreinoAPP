@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
+<title>CidaoDEVMNN — Treino</title>
+<meta name="theme-color" content="#121212">
+<link rel="manifest" href="manifest.json">
+<link rel="icon" href="icons/icon-192.png">
+<link rel="apple-touch-icon" href="icons/icon-192.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Treino">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="topbar">
+  <div class="brand">
+    <span class="brand-dot"></span>
+    <span class="brand-name">CidaoDEVMNN</span>
+  </div>
+  <button id="btnFullscreen" class="icon-btn" aria-label="Tela cheia">⛶</button>
+</header>
+
+<main class="app">
+
+  <section class="checkin" id="checkin">
+    <div class="checkin-days" id="checkinDays"></div>
+    <p class="checkin-stats" id="checkinStats"></p>
+  </section>
+
+  <section class="status-row">
+    <span id="infoText" class="info-text">Semana 1 | Iniciante</span>
+    <span id="previsaoText" class="previsao-text"></span>
+  </section>
+
+  <p id="diaNome" class="dia-nome"></p>
+  <p id="avisoDescanso" class="aviso-descanso"></p>
+
+  <div class="treino-head">
+    <p id="lblRound" class="lbl-round"></p>
+    <h1 id="lblNome" class="lbl-nome">Pronto para treinar</h1>
+    <p id="lblExCount" class="lbl-ex-count"></p>
+    <p id="lblDesc" class="lbl-desc"></p>
+  </div>
+
+  <div class="progress-wrap">
+    <p id="progressLbl" class="progress-lbl">Progresso: 0%</p>
+    <div class="progress-bar-track">
+      <div id="progressBar" class="progress-bar-fill"></div>
+    </div>
+  </div>
+
+  <div class="timer-wrap">
+    <svg id="timerRing" viewBox="0 0 140 140" class="timer-ring">
+      <circle class="ring-bg" cx="70" cy="70" r="60"></circle>
+      <circle id="ringArc" class="ring-arc" cx="70" cy="70" r="60"></circle>
+    </svg>
+    <span id="lblTempo" class="lbl-tempo"></span>
+  </div>
+
+  <div class="gif-wrap">
+    <video id="exVideo" class="ex-video" muted loop playsinline autoplay></video>
+  </div>
+
+  <div class="controls">
+    <button id="btnIniciar" class="btn btn-primary">INICIAR</button>
+    <button id="btnPausar" class="btn btn-warn" disabled>⏸ PAUSAR</button>
+    <button id="btnStop" class="btn btn-stop">■ STOP</button>
+  </div>
+
+  <button id="btnForcar" class="link-btn" hidden>Treinar mesmo assim (não recomendado)</button>
+
+</main>
+
+<footer class="footer">CidaoDEVMNN</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
