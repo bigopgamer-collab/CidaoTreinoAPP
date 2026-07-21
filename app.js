@@ -26,7 +26,7 @@
         ["Prancha", "Abdômen contraído, respire", 35, "prancha"],
       ],
       2: [
-        ["Prancha lateral esq.", "Quadril elevado", 30, "prancha_lateral"],
+        ["Prancha lateral esq.", "Quadril elevado", 30, "prancha_lateral_esq"],
         ["Mountain climber", "Ritmo moderado, core firme", 25, "mountain_climber"],
         ["Abdominal bicicleta", "Cotovelo toca joelho oposto", 30, "abdominal"],
         ["Polichinelo", "Ritmo constante", 30, "polichinelo"],
@@ -45,7 +45,7 @@
       ],
       5: [
         ["Prancha lateral dir.", "Quadril elevado", 35, "prancha_lateral"],
-        ["Prancha lateral esq.", "Quadril elevado", 35, "prancha_lateral"],
+        ["Prancha lateral esq.", "Quadril elevado", 35, "prancha_lateral_esq"],
         ["Dead bug", "Lombar no chão, controle", 30, "deadbug"],
         ["Bird dog", "Alterne, segure 2s", 30, "birddog"],
       ],
@@ -65,7 +65,7 @@
         ["Prancha", "Respire, não prenda o ar", 40, "prancha"],
       ],
       2: [
-        ["Prancha lateral esq.", "Quadril elevado, 40s", 35, "prancha_lateral"],
+        ["Prancha lateral esq.", "Quadril elevado, 40s", 35, "prancha_lateral_esq"],
         ["Burpee", "Explosivo, controle na descida", 25, "burpee"],
         ["Abdominal bicicleta", "Cotovelo toca joelho oposto", 35, "abdominal"],
         ["Polichinelo", "Ritmo forte", 30, "polichinelo"],
@@ -84,7 +84,7 @@
       ],
       5: [
         ["Prancha lateral dir.", "Quadril elevado, 40s", 35, "prancha_lateral"],
-        ["Prancha lateral esq.", "Quadril elevado, 40s", 35, "prancha_lateral"],
+        ["Prancha lateral esq.", "Quadril elevado, 40s", 35, "prancha_lateral_esq"],
         ["Dead bug", "Lombar no chão, controle", 35, "deadbug"],
         ["Super-homem isometria", "Peito e coxas fora do chão, segure", 35, "superman"],
       ],
